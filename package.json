@@ -1,0 +1,19 @@
+{
+  "name": "libray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "chalk": "2.4.1",
+    "debug": "2.6.6",
+    "express": "4.15.2",
+    "jquery": "3.3.1",
+    "morgan": "1.9.0"
+  }
+}
