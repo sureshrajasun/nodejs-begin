@@ -18,7 +18,14 @@ app.set('view engine', 'ejs');
 
 
 app.get('/', (req, res) => {
-    res.render('index', { list: ['a', 'b'], title: 'Library'});
+    res.render('index', 
+        { 
+            nav:[
+                    {title: 'Book', link : '/book'},
+                    {title: 'Author', link : '/author'}
+                ], 
+            title: 'Library'
+        });
 });
 
 app.get('/index', function (req, res){
